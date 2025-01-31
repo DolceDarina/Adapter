@@ -4,13 +4,13 @@ import java.time.LocalDateTime;
 
 // Принцип Interface Segregation: Интерфейс содержит только необходимые методы для работы с датчиками.
 public interface MeteoSensor {
-    int getId(); // идентификатор датчика
+    int getId();
 
-    Float getTemperature(); // температура датчика
+    Float getTemperature();
 
-    Float getHumidity(); // влажность
+    Float getHumidity();
 
-    Float getPressure(); // давление
+    Float getPressure();
 
-    LocalDateTime getDateTime(); // время чтения данных датчика
+    LocalDateTime getDateTime();
 }

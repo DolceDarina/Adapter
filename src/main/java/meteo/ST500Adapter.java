@@ -20,11 +20,11 @@ public class ST500Adapter implements MeteoSensor {
     }
 
     public Float getHumidity() {
-        return null; // У ST500 нет данных о влажности
+        return null;
     }
 
     public Float getPressure() {
-        return null; // У ST500 нет данных о давлении
+        return null;
     }
 
     public LocalDateTime getDateTime() {
