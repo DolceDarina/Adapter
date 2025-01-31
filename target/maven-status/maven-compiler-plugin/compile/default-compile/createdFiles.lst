@@ -1,0 +1,8 @@
+meteo\MeteoSensor.class
+meteo\MS200.class
+meteo\ST500Info$1.class
+meteo\ST500Info.class
+meteo\ST500Adapter.class
+meteo\SensorTemperature.class
+meteo\MeteoStore.class
+meteo\Main.class
